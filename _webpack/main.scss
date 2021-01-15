@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 2em;
 }
 
 main {
@@ -8,7 +12,13 @@ main {
 }
 
 article {
-  padding: 110px 15px 80px;
-  max-width: 1000px;
-  margin: 0 auto;
+  //padding: 110px 15px 80px;
+}
+
+p {
+  color: #575656;
+}
+
+ul {
+  color: #575656;
 }
