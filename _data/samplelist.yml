@@ -1,0 +1,11 @@
+docs_list_title: Navigation
+docs:
+
+  - title: Projekt
+    url: /index.html
+
+  - title: Über
+    url: /about.html
+
+  - title: Kontakt
+    url: /contact.html
