@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="de">
 <head>
     <meta charset="utf-8">
     <title></title>
@@ -8,31 +8,31 @@
 </head>
 <body class="bg-white text-lg">
 <div class="w-full text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800">
-    <div class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+    <div class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8 mb-4">
         <div class="p-4 flex flex-row items-center justify-between">
-            <a href="#"
-               class="text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">Observationes meteorlogicae Regensburg</a>
-            <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline">
-                <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
-                    <path x-show="!open" fill-rule="evenodd"
-                          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-                          clip-rule="evenodd"></path>
-                    <path x-show="open" fill-rule="evenodd"
-                          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                          clip-rule="evenodd"></path>
-                </svg>
-            </button>
+            <a href="index.html"
+               class="text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">
+                Observationes meteorlogicae Regensburg
+            </a>
         </div>
         <nav :class="flex"
              class="flex-col flex-grow pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
-            <a class="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 bg-gray-200 rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-               href="#">Projekt</a>
-            <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-               href="#">Aktivitäten</a>
-            <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-               href="#">Über</a>
-            <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-               href="#">Kontakt</a>
+            
+            <a class="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 bg-gray-200 rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline mr-5 "
+               href="/index.html">
+                Projekt
+            </a>
+            
+            <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline mr-5"
+               href="/about.html">
+                Über
+            </a>
+            
+            <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline mr-5"
+               href="/contact.html">
+                Kontakt
+            </a>
+            
         </nav>
     </div>
 </div>
@@ -42,62 +42,71 @@
             <div class="flex bg-white" style="height:600px;">
                 <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
                     <div>
-                        <h2 class="text-3xl font-semibold text-gray-800 md:text-4xl">Historische Wetterdaten <span class="text-indigo-600">transkribieren</span></h2>
-                        <p class="mt-2 text-sm text-gray-500 md:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates. Cumque debitis dignissimos id quam vel!</p>
+                        <h2 class="text-3xl font-semibold text-gray-800 md:text-4xl">Historische Wetterdaten <span
+                                class="primary-color">transkribieren</span></h2>
+                        <p class="mt-2 text-sm text-gray-500 md:text-base">Für die automatisierte Erschließung
+                            historischer Wetteraufzeichnugen aus Regensburg werden transkribierte Daten benötigt. In
+                            diesem Crowdsourcing-Projekt sollen genug Daten gesammelt werden, um den Computer
+                            trainieren, und den Rest der Bestände erschließen zu können.</p>
                         <div class="flex justify-center lg:justify-start mt-6">
-                            <a class="px-4 py-3 bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800" href="#">Get Started</a>
-                            <a class="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400" href="#">Learn More</a>
+                            <a class="px-4 py-3 bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800"
+                               href="#transcription-steps">Mitmachen</a>
                         </div>
                     </div>
                 </div>
                 <div class="hidden lg:block lg:w-1/2" style="clip-path:polygon(10% 0, 100% 0%, 100% 100%, 0 100%)">
-                    <div class="h-full object-cover" style="background-image: url(https://images.unsplash.com/photo-1568057372630-7e970893d189?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80)">
+                    <div class="h-full object-cover" style="background-image: url(assets/observationes-front.png)">
                         <div class="h-full bg-black opacity-25"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <article class="max-w-3xl mx-auto pt-12 pb-4">
+    <article class="max-w-4xl mx-auto pt-12 pb-4">
         <h2 class="text-4xl pb-5 pt-7 text-gray-700">Historische Wetterdaten entdecken</h2>
-        <p class="leading-relaxed">
-            Design is all about fucking relationships—the relationship of form and content, the relationship of
-            elements, the relationship of designer and user. Nothing of value comes to you without fucking working at
-            it. Think about all the fucking possibilities. Defy fucking convention. If you don’t test your will against
-            the dissent of the world, it can never grow stronger. The details are not the details. They make the fucking
-            design. Practice won’t get you anywhere if you mindlessly fucking practice the same thing. Change only
-            occurs when you work deliberately with purpose toward a goal. Paul Rand once said, “The public is more
-            familiar with bad fucking design than good design. It is, in effect, conditioned to prefer bad design,
-            because that is what it lives with. The new becomes threatening, the old reassuring.” A good fucking
-            composition is the result of a hierarchy consisting of clearly contrasting elements set with distinct
-            alignments containing irregular intervals of negative space. There is no right fucking answer. The splendor
-            of the mystery is that you don’t understand. Make work that fucking matters. You are the source of every
-            ounce of give-a-damn that will ever exist in your work. Keep fucking going.
+        <p id="observationes-infomartion" class="leading-relaxed">
+            Die Regensburger Wetteraufzeichnungen wurden über mehr als 50 Jahre hinweg ohne Unterbrechungen geführt.
+            Coelestin Steiglehner, Professor für Mathematik und Naturwissenschaften, begann die Wetteraufzeichnungen im
+            Jahr 1771 und führte sie sieben Jahre fort. Die Aufzeichnungen begannen somit bereits neun Jahre vor der
+            Gründung der meteorologischen Gesellschaft in Mannheim, welche mit Aufzeichnungen, Auswertungen und
+            wissenschaftlichen Abhandlungen aus dem Kloster versorgt wurde. Bis zu dreizehnmal am Tag wurden Temperatur,
+            Luftdruck, Luftfeuchtigkeit, Windstärke und Windrichtung festgehalten. Ab 1778 übernahmen Placidus Heinrich
+            und seine Schüler die Anfertigung der Aufzeichnungen. Heinrich war ebenfalls ein begeisterter
+            Naturwissenschaftler und übernahm zwischen 1791 und 1798 eine Professur für Naturlehre, Stern- und
+            Witterungskunde in Ingolstadt. Unter Heinrich wurden ab 1782 weitere Informationen wie Bewölkung, Nebel,
+            Regen, Überschwemmungen, Mondphasen und Sonnenflecken mit in die Aufzeichnungen aufgenommen. Nach dem Tod
+            von Placidus Heinrich im Jahr 1825 führte Ferdinand von Schmöger die Wettertagebücher bis zum 31. Dezember
+            1827 fort.
+            Zeitlich fallen die Bestände in die frühe Neuzeit, klimahistorisch in die Kleine Eiszeit. Eine Klimaepoche,
+            die einen umfassenden Rahmen für globale Veränderungen der Umwelt bildet.
+            Die 40 Bände der "Observationes meteorologicae" zählen zu den ältesten durchgängig geführten
+            Wetteraufzeichnungen in Europa.
+            Durch das hohe Maß an Homogenität und Kontinuität eignen sie sich damit in besonderer Weise für
+            systematische, computergestützte Analyseansätze im Sinne der Digital Humanities.
         </p>
         <h2 class="text-4xl pb-5 pt-7 text-gray-700">Wetterdaten gemeinsam transkribieren: Wie kann ich mitmachen?
         </h2>
-        <ul class="leading-relaxed list-disc">
-            <li>Tutorial zur Benutzung von Transkribus im Rahmen des Projektes</li>
-            <li>Gemeinsam an einem Strang ziehen: Transkriptionsrichtlinien</li>
-            <li>Gehe zu <a href="https://transkribus.eu/r/read/login/?next=/r/read/library/" rel="noopener"
-                           title="Transkribus Projects" target="_blank">https://transkribus.eu/r/read/login/</a> (zur
-                Benutzung s. auch <a href="https://transkribus.eu/wiki/index.php/Main_Page" rel="noopener noreferrer"
+        <ul id="transcription-steps" class="leading-relaxed list-disc">
+            <li><span class="secondary-color">Tutorial zur Benutzung von Transkribus</span> im Rahmen des Projektes</li>
+            <li>Die <span class="secondary-color">Transkriptionsrichtlinien</span> des Projekts</li>
+            <li>Gehen Sie zu <a class="secondary-color" href="https://transkribus.eu/r/read/login/?next=/r/read/library/" rel="noopener"
+                                title="Transkribus Projects" target="_blank">https://transkribus.eu/r/read/login/</a>
+                (zur
+                Benutzung s. auch <a class="secondary-color" href="https://transkribus.eu/wiki/index.php/Main_Page" rel="noopener noreferrer"
                                      title="Transkribus-Wiki" target="_blank">Transkribus-Wiki</a>)
             </li>
-            <li>Logge Dich mit Deinem Transkribus-Accout ein (vorher hier registrieren: <a
-                    href="https://account.readcoop.eu/auth/realms/readcoop/login-actions/registration?execution=cb71945b-88e9-4c0e-b025-5cb2853e1056&amp;client_id=readcoop-wp&amp;tab_id=0Gm7y1ZOxjI">https://account.readcoop.eu/</a>)
+            <li>Loggen Sich sich mit Ihren Transkribus-Accout ein (vorher hier registrieren: <a class="secondary-color"
+                    href="https://account.readcoop.eu/">https://account.readcoop.eu/</a>)
             </li>
-            <li>... oder verwende den gemeinsamen Log-In:<br>Username: <br>Passwort:</li>
-            <li>Du kommst dann auf die Startseite und gehst zu „My Collections“</li>
-            <li>Öffne das Projekt „Hanse.Quellen.Lesen! Die Spätzeit der Hanse gemeinsam entdecken (FGHO &amp; AHL
-                Community Science Project)"
-            </li>
-            <li>Such’ Dir ein Dokument aus der Liste aus</li>
+            <li>... oder verwenden Sie den gemeinsamen Log-In:<br>Username: observationes.regensburg@gmail.com<br>Passwort: steiglehner1771</li>
+            <li>Sie kommen dann auf die Startseite und gehen zu „My Collections“</li>
+            <li>Öffnen Sie das Projekt „Observationes meteorologicae"</li>
+            <li>Suchen Sie sich ein Dokument aus der Liste aus</li>
             <li>…und los geht’s!!</li>
         </ul>
     </article>
 
-    <div class="max-w-3xl mx-auto">
+    <div class="hidden max-w-4xl mx-auto">
         <div class="flex items-center justify-between">
             <h2 class="text-4xl pb-5 pt-7 text-gray-700">Aktivitäten</h2>
         </div>
@@ -116,7 +125,6 @@
         </div>
         
     </div>
-
 </div>
 </body>
 <script src="assets/main-bundle.js"></script>
